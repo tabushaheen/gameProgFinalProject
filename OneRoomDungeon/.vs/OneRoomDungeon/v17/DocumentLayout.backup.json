@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Tarek\\Documents\\GitHub\\gameProgFinalProject\\OneRoomDungeon\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tarek\\Documents\\GitHub\\gameProgFinalProject\\OneRoomDungeon\\Assets\\Scripts\\KeyPickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\KeyPickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tarek\\Documents\\GitHub\\gameProgFinalProject\\OneRoomDungeon\\Assets\\Scripts\\PlayerInventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerInventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tarek\\Documents\\GitHub\\gameProgFinalProject\\OneRoomDungeon\\Assets\\Scripts\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tarek\\Documents\\GitHub\\gameProgFinalProject\\OneRoomDungeon\\Assets\\Scripts\\KeyPickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\KeyPickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tarek\\Documents\\GitHub\\gameProgFinalProject\\OneRoomDungeon\\Assets\\Scripts\\PlayerAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RestartScene.cs",
               "DocumentMoniker": "C:\\Users\\Tarek\\Documents\\GitHub\\gameProgFinalProject\\OneRoomDungeon\\Assets\\Scripts\\RestartScene.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RestartScene.cs",
@@ -62,12 +62,11 @@
               "RelativeToolTip": "Assets\\Scripts\\RestartScene.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T04:27:07.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T04:27:07.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DoorInteraction.cs",
               "DocumentMoniker": "C:\\Users\\Tarek\\Documents\\GitHub\\gameProgFinalProject\\OneRoomDungeon\\Assets\\Scripts\\DoorInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DoorInteraction.cs",
@@ -75,12 +74,11 @@
               "RelativeToolTip": "Assets\\Scripts\\DoorInteraction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T04:08:26.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T04:08:26.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayerInventory.cs",
               "DocumentMoniker": "C:\\Users\\Tarek\\Documents\\GitHub\\gameProgFinalProject\\OneRoomDungeon\\Assets\\Scripts\\PlayerInventory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInventory.cs",
@@ -93,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "KeyPickup.cs",
               "DocumentMoniker": "C:\\Users\\Tarek\\Documents\\GitHub\\gameProgFinalProject\\OneRoomDungeon\\Assets\\Scripts\\KeyPickup.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KeyPickup.cs",
@@ -126,8 +124,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerAttack.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAADgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T03:01:38.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T03:01:38.647Z"
             },
             {
               "$type": "Document",
@@ -139,12 +136,11 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T02:47:17.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T02:47:17.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "C:\\Users\\Tarek\\Documents\\GitHub\\gameProgFinalProject\\OneRoomDungeon\\Assets\\Scripts\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
@@ -152,8 +148,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T02:08:15.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T02:08:15.247Z"
             },
             {
               "$type": "Document",
