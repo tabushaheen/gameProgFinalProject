@@ -6,14 +6,23 @@ public class KeyPickup : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (!other.CompareTag("Player"))
         {
-            PlayerInventory inv = other.GetComponent<PlayerInventory>();
-            if (inv != null)
-            {
-                inv.hasKey = true;
-                Destroy(gameObject);
-            }
+            return;
         }
+
+        PlayerInventory inventory = other.GetComponent<PlayerInventory>();
+        
+        if (inventory != null)
+        {
+            inventory.hasKey = true;
+            Debug.Log("Key picked up hasKey = " + inventory.hasKey);
+
+            Destroy(gameObject);
+        }
+        else
+        {
+            Debug.LogWarning("Player collided but no inventory");
     }
+}
 }
