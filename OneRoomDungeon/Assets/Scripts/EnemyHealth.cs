@@ -1,4 +1,4 @@
- using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,7 +9,7 @@ public class EnemyHealth : MonoBehaviour
     private int currentHealth;
 
     [Header("Knockback")]
-    public float knockbackForce = 5f;
+    public float knockbackForce = 10f;
 
     private Rigidbody rb;
 
@@ -21,19 +21,21 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeHit(Vector3 hitSourcePosition)
     {
+        Debug.Log($"{name} took a hit! Current health BEFORE hit: {currentHealth}");
+
         currentHealth--;
 
-        // Knockback direction: away from the player
         if (rb != null)
         {
             Vector3 knockDirection = (transform.position - hitSourcePosition).normalized;
             knockDirection.y = 0f;
             rb.AddForce(knockDirection * knockbackForce, ForceMode.Impulse);
         }
-
+        
         // Check if player died
         if (currentHealth <= 0)
         {
+            Debug.Log($"{name} died.");
             Destroy(gameObject);
         }
     }

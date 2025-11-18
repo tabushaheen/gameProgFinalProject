@@ -1,5 +1,6 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class EnemyPatrol : MonoBehaviour
@@ -7,57 +8,81 @@ public class EnemyPatrol : MonoBehaviour
     [Header("Movement Settings")]
     public float moveSpeed = 3f;
 
-    [Header("Patrol Points")]
-    public Transform pointA;
-    public Transform pointB;
+    [Header("Patrol Points (at least 2)")]
+    public Transform[] patrolPoints;
 
-    private Transform currentTarget;
+    private int currentIndex = 0;
+
+    private Rigidbody rb;
+
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            rb.constraints = RigidbodyConstraints.FreezeRotation;
+        }
+    }
 
     private void Start()
     {
-        //if points are missing, just stop
-        if (pointA == null || pointB == null)
+        if (patrolPoints == null || patrolPoints.Length < 2)
         {
-            Debug.LogWarning("EnemyPatrol: pointA or pointB not assigned on " + gameObject.name);
+            Debug.LogWarning("EnemyPatrol: Need at least 2 patrol points on " + gameObject.name);
             enabled = false;
             return;
         }
 
-        // Start at point A and move towards B
-        transform.position = pointA.position;
-        currentTarget = pointB;
+        //start at the first point
+        transform.position = patrolPoints[0].position;
+
+        currentIndex = 1;
     }
 
     private void Update()
     {
-        if (pointA == null || pointB == null) return;
+        if (patrolPoints == null || patrolPoints.Length < 2) return;
 
-        transform.position = Vector3.MoveTowards(
+        Transform targetPoint = patrolPoints[currentIndex];
+
+        Vector3 newPos = Vector3.MoveTowards(
             transform.position,
-            currentTarget.position,
+            targetPoint.position,
             moveSpeed * Time.deltaTime
         );
 
-        float distanceToTarget = Vector3.Distance(transform.position, currentTarget.position);
+        rb.MovePosition(newPos);
+
+        float distanceToTarget = Vector3.Distance(transform.position, targetPoint.position);
+
         if (distanceToTarget < 0.1f)
         {
-            if (currentTarget == pointA)
-            {
-                currentTarget = pointB;
-            }
-            else
-            {
-                currentTarget = pointA;
-            }
+            IncrementPatrolIndex();
+        }
+    }
+
+    private void IncrementPatrolIndex()
+    {
+        currentIndex++;
+
+        if (currentIndex >= patrolPoints.Length)
+        {
+            currentIndex = 0;
         }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
+        // if hitting wall, switch patrol target
+        if (collision.gameObject.CompareTag("Wall"))
+        {
+            IncrementPatrolIndex();
+            return;
+        }
+
         if (collision.gameObject.CompareTag("Player"))
         {
             PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
-
             if (playerHealth != null)
             {
                 playerHealth.TakeDamage(1);
