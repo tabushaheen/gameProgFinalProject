@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DoorInteraction : MonoBehaviour
 {
+    public GameObject winScreen;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -12,6 +13,7 @@ public class DoorInteraction : MonoBehaviour
             PlayerInventory inv = other.GetComponent<PlayerInventory>();
             if (inv != null && inv.hasKey)
             {
+                winScreen.SetActive(true);
                 SceneManager.LoadScene("WinScreen");
             }
         }
