@@ -4,18 +4,24 @@ using UnityEngine;
 public class EnemyBounceChase : MonoBehaviour
 {
     [Header("References")]
-    public Transform player;                 // drag Player here (or auto-find by tag "Player")
-    public Transform pointA;                 // your EnemyPointA
-    public Transform pointB;                 // your EnemyPointB
+    public Transform player;
+    public Transform pointA;
+    public Transform pointB;
 
     [Header("Movement")]
-    public float moveSpeed = 7f;             // make them faster here
+    public float moveSpeed = 7f;
     public float randomSpawnOffsetRadius = 0.6f;
     public bool randomStartAtAorB = true;
 
     [Header("Wall")]
     public string wallTag = "Wall";
     public float pushOffWallDistance = 0.06f;
+
+    [Header("Damage Player On Contact")]
+    public int contactDamage = 1;
+    public float contactDamageCooldown = 0.75f;
+
+    private float nextDamageTime = 0f;
 
     private Rigidbody rb;
     private Vector3 moveDir;
@@ -38,21 +44,17 @@ public class EnemyBounceChase : MonoBehaviour
 
     void Start()
     {
-        // Spawn at A or B (random), with a small random offset so enemies don’t stack
         if (pointA != null && pointB != null)
         {
             Transform spawnPoint = pointA;
-
             if (randomStartAtAorB)
                 spawnPoint = (Random.value < 0.5f) ? pointA : pointB;
 
             Vector2 off2 = Random.insideUnitCircle * randomSpawnOffsetRadius;
             Vector3 offset = new Vector3(off2.x, 0f, off2.y);
-
             transform.position = spawnPoint.position + offset;
         }
 
-        // Random initial direction so enemies don't sync
         Vector2 r = Random.insideUnitCircle.normalized;
         moveDir = new Vector3(r.x, 0f, r.y);
         if (moveDir.sqrMagnitude < 0.001f) moveDir = Vector3.forward;
@@ -66,6 +68,13 @@ public class EnemyBounceChase : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        // Damage player on contact (once per cooldown)
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            TryDamagePlayer(collision.gameObject);
+            // don’t return; we still want wall logic when it’s a wall
+        }
+
         if (!collision.gameObject.CompareTag(wallTag))
             return;
 
@@ -78,12 +87,11 @@ public class EnemyBounceChase : MonoBehaviour
                 transform.position += n.normalized * pushOffWallDistance;
         }
 
-        // After wall hit: lock direction toward player's CURRENT position (snapshot)
+        // Snapshot direction to player on wall hit
         if (player != null)
         {
             Vector3 toPlayer = player.position - transform.position;
             toPlayer.y = 0f;
-
             if (toPlayer.sqrMagnitude > 0.001f)
             {
                 moveDir = toPlayer.normalized;
@@ -92,10 +100,9 @@ public class EnemyBounceChase : MonoBehaviour
             }
         }
 
-        // Fallback if player missing/overlapping: bounce-ish random or reverse
+        // Fallback
         if (!hasLockedToPlayerYet)
         {
-            // before first lock, randomize to separate enemies even more
             Vector2 r = Random.insideUnitCircle.normalized;
             moveDir = new Vector3(r.x, 0f, r.y);
             if (moveDir.sqrMagnitude < 0.001f) moveDir = -moveDir;
@@ -103,6 +110,25 @@ public class EnemyBounceChase : MonoBehaviour
         else
         {
             moveDir = -moveDir;
+        }
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        // Optional: keep damaging while touching (but still cooldown-limited)
+        if (collision.gameObject.CompareTag("Player"))
+            TryDamagePlayer(collision.gameObject);
+    }
+
+    private void TryDamagePlayer(GameObject playerObj)
+    {
+        if (Time.time < nextDamageTime) return;
+
+        PlayerHealth ph = playerObj.GetComponent<PlayerHealth>();
+        if (ph != null)
+        {
+            ph.TakeDamage(contactDamage);
+            nextDamageTime = Time.time + contactDamageCooldown;
         }
     }
 }

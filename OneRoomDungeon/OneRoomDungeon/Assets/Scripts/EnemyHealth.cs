@@ -11,18 +11,25 @@ public class EnemyHealth : MonoBehaviour
     [Header("Knockback")]
     public float knockbackForce = 10f;
 
+    [Header("Death")]
+    public float destroyDelay = 1.2f; // match your death clip length
+
     private Rigidbody rb;
+    private Animator anim;
+    private bool isDead = false;
 
     void Awake()
     {
         currentHealth = maxHealth;
         rb = GetComponent<Rigidbody>();
+        anim = GetComponentInChildren<Animator>();
     }
 
     public void TakeHit(Vector3 hitSourcePosition)
     {
-        Debug.Log($"{name} took a hit! Current health BEFORE hit: {currentHealth}");
+        if (isDead) return;
 
+        Debug.Log($"{name} took a hit! Current health BEFORE hit: {currentHealth}");
         currentHealth--;
 
         if (rb != null)
@@ -31,12 +38,16 @@ public class EnemyHealth : MonoBehaviour
             knockDirection.y = 0f;
             rb.AddForce(knockDirection * knockbackForce, ForceMode.Impulse);
         }
-        
-        // Check if player died
+
         if (currentHealth <= 0)
         {
+            isDead = true;
             Debug.Log($"{name} died.");
-            Destroy(gameObject);
+
+            if (anim != null)
+                anim.SetTrigger("Die");
+
+            Destroy(gameObject, destroyDelay);
         }
     }
 }

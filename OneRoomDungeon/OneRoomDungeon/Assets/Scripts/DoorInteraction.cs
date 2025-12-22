@@ -8,6 +8,7 @@ public class DoorInteraction : MonoBehaviour
     public GameObject winScreen;
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("DOOR TRIGGER HIT BY: " + other.name + " tag=" + other.tag);
         if (other.CompareTag("Player"))
         {
             PlayerInventory inv = other.GetComponent<PlayerInventory>();
