@@ -3,28 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|c:\\users\\abush\\downloads\\gameprogfinalproject-main\\gameprogfinalproject-main\\oneroomdungeon\\oneroomdungeon\\assets\\scripts\\enemybouncechase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemybouncechase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|c:\\users\\abush\\downloads\\gameprogfinalproject-main\\gameprogfinalproject-main\\oneroomdungeon\\oneroomdungeon\\assets\\scripts\\nextlevelbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\nextlevelbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|c:\\users\\abush\\downloads\\gameprogfinalproject-main\\gameprogfinalproject-main\\oneroomdungeon\\oneroomdungeon\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|c:\\users\\abush\\downloads\\gameprogfinalproject-main\\gameprogfinalproject-main\\oneroomdungeon\\oneroomdungeon\\assets\\scripts\\restartscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\restartscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\assets\\scripts\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\assets\\scripts\\enemyanimatorfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyanimatorfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\assets\\scripts\\levelbootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelbootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\assets\\scripts\\doorinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doorinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\assets\\scripts\\keypickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keypickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|c:\\users\\abush\\downloads\\gameprogfinalproject-main\\gameprogfinalproject-main\\oneroomdungeon\\oneroomdungeon\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\assets\\scripts\\triggertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|c:\\users\\abush\\downloads\\gameprogfinalproject-main\\gameprogfinalproject-main\\oneroomdungeon\\oneroomdungeon\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\assets\\scripts\\enemybouncechase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemybouncechase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|c:\\users\\abush\\downloads\\gameprogfinalproject-main\\gameprogfinalproject-main\\oneroomdungeon\\oneroomdungeon\\assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\assets\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|c:\\users\\abush\\downloads\\gameprogfinalproject-main\\gameprogfinalproject-main\\oneroomdungeon\\oneroomdungeon\\assets\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A44153-3EA5-1CE7-4FBC-8C7067440BC8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,85 +66,177 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EnemyHealth.cs",
-              "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\EnemyHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
-              "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\EnemyHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T02:25:59.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EnemyBounceChase.cs",
-              "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\EnemyBounceChase.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBounceChase.cs",
-              "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\EnemyBounceChase.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyBounceChase.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAgwIYAAAAAAAAAAAAAAA==",
+              "Title": "NextLevelButton.cs",
+              "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\NextLevelButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NextLevelButton.cs",
+              "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\NextLevelButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NextLevelButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T02:25:36.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EnemyController.cs",
-              "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\EnemyController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyController.cs",
-              "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\EnemyController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAwFwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T02:25:22.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlayerAttack.cs",
-              "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\PlayerAttack.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAttack.cs",
-              "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\PlayerAttack.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerAttack.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAzwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T02:25:09.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerHealth.cs",
-              "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\PlayerHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
-              "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\PlayerHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T02:24:33.809Z",
+              "WhenOpened": "2025-12-23T05:13:35.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "RestartScene.cs",
+              "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\RestartScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RestartScene.cs",
+              "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\RestartScene.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RestartScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T05:10:25.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainMenuUI.cs",
+              "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\MainMenuUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuUI.cs",
+              "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\MainMenuUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenuUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T04:42:01.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyAnimatorFix.cs",
+              "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\EnemyAnimatorFix.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAnimatorFix.cs",
+              "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\EnemyAnimatorFix.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyAnimatorFix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T04:08:08.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LevelBootstrap.cs",
+              "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\LevelBootstrap.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelBootstrap.cs",
+              "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\LevelBootstrap.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelBootstrap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T04:02:29.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TriggerTest.cs",
+              "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\TriggerTest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerTest.cs",
+              "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\TriggerTest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TriggerTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T02:48:01.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KeyPickup.cs",
+              "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\KeyPickup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KeyPickup.cs",
+              "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\KeyPickup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KeyPickup.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T00:41:34.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DoorInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\DoorInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DoorInteraction.cs",
+              "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\DoorInteraction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DoorInteraction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T04:27:57.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EnemyHealth.cs",
+              "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\EnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
+              "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\EnemyHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T02:25:59.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EnemyBounceChase.cs",
+              "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\EnemyBounceChase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBounceChase.cs",
+              "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\EnemyBounceChase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyBounceChase.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAgwJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T02:25:36.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EnemyController.cs",
+              "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\EnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyController.cs",
+              "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\EnemyController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAwFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T02:25:22.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlayerAttack.cs",
+              "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\PlayerAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAttack.cs",
+              "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\PlayerAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerAttack.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAzwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T02:25:09.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T02:24:33.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\abush\\Downloads\\gameProgFinalProject-main\\gameProgFinalProject-main\\OneRoomDungeon\\OneRoomDungeon\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T02:23:47.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T02:23:47.33Z"
             }
           ]
         }

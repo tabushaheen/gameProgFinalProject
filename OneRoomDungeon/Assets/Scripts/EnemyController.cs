@@ -81,7 +81,7 @@ public class EnemyController : MonoBehaviour
         Vector3 knockDirection = (transform.position - hitFromPosition).normalized;
         knockDirection.y = 0f; // keep it flat (top-down)
 
-        rb.linearVelocity = Vector3.zero; // reset current velocity
+        rb.velocity = Vector3.zero; // reset current velocity
         rb.AddForce(knockDirection * knockbackForce, ForceMode.Impulse);
     }
 
